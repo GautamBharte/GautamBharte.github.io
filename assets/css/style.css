@@ -708,6 +708,15 @@ a:hover {
   position: relative;
   transform: translate(0px,-10px);
 }
+
+@media (max-width: 1200px) {
+  .batch-cards{
+    padding: 0px;
+  }
+  .batch{
+    margin: 1rem;
+  }
+}
 /* end-self-code */
 
 .work-box {
@@ -875,6 +884,19 @@ a:hover {
   width: 16rem;
   height: 3.5rem;
 }
+
+@media (max-width: 1200px) {
+  .image-section{
+    display: none;
+  }
+  .project{
+    margin: 1rem;
+  }
+}
+
+
+
+
 /* end-self-code */
 
 .card-blog .card-body {
