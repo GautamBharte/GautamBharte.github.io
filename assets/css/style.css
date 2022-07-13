@@ -833,7 +833,8 @@ a:hover {
 .project-title h3{
   font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+  color: #000000;
 }
 .project-context{
   margin-bottom: 2rem;
