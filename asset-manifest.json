@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/GautamBharte/GautamBharte.github.io/static/css/main.b290d251.css",
-    "main.js": "/GautamBharte/GautamBharte.github.io/static/js/main.ffc4e253.js",
-    "static/media/backGround.jpg": "/GautamBharte/GautamBharte.github.io/static/media/backGround.105892d70322cbea031c.jpg",
-    "index.html": "/GautamBharte/GautamBharte.github.io/index.html",
-    "main.b290d251.css.map": "/GautamBharte/GautamBharte.github.io/static/css/main.b290d251.css.map",
-    "main.ffc4e253.js.map": "/GautamBharte/GautamBharte.github.io/static/js/main.ffc4e253.js.map"
+    "main.css": "/GautamBharte.github.io/static/css/main.b290d251.css",
+    "main.js": "/GautamBharte.github.io/static/js/main.3b7b16e6.js",
+    "static/media/backGround.jpg": "/GautamBharte.github.io/static/media/backGround.105892d70322cbea031c.jpg",
+    "index.html": "/GautamBharte.github.io/index.html",
+    "main.b290d251.css.map": "/GautamBharte.github.io/static/css/main.b290d251.css.map",
+    "main.3b7b16e6.js.map": "/GautamBharte.github.io/static/js/main.3b7b16e6.js.map"
   },
   "entrypoints": [
     "static/css/main.b290d251.css",
-    "static/js/main.ffc4e253.js"
+    "static/js/main.3b7b16e6.js"
   ]
 }
