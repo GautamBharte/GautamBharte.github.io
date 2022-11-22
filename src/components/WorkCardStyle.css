@@ -1,6 +1,7 @@
 .project-heading{
     text-align: center;
     padding: 4rem 0 2rem 2;
+    margin-bottom: 2rem;
 }
 
 .project-container{
@@ -14,7 +15,7 @@
 
 .project-card{
     background: #1a1919;
-    padding: 2.1rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .project-card img{
@@ -39,7 +40,7 @@
 
 .pro-details p{
     padding-bottom: 1rem;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 
 }
 

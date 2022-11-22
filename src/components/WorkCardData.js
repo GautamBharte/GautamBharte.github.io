@@ -1,4 +1,5 @@
-import pro1 from "../assets/images/backGround.jpg"
+import pro1 from "../assets/images/pros1.png"
+import pro2 from "../assets/images/pros2.png"
 
 const ProjectCardDate = [
     {
@@ -8,7 +9,7 @@ const ProjectCardDate = [
         view : "https://github.com/GautamBharte/Organ-Fast-Transfer",
     },
     {
-        imgsrc: pro1,
+        imgsrc: pro2,
         title : "Hostelite – DBMS based Hostel Portal",
         text : "An end-to-end Database focused portal for students’ registration, Organization Information and managing accounts section with addition functionalities. PostgreSQL, AWS, Heroku server, JavaScript.",
         view : "https://github.com/GautamBharte/Hostel-Management-System",
