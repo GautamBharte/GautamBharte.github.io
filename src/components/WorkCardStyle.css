@@ -14,16 +14,22 @@
 }
 
 .project-card{
-    background: #1a1919;
+    background: #f3f3f3;
     padding: 1rem 1rem;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
 }
 
 .project-card img{
     width: 100%;
 }
+.project-card h1, h4, p, a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
 
 .project-title{
-    color: #fff;
+    color: rgb(25, 103, 185);
     padding: 1rem 0;
     text-align: justify;
 }

@@ -10,34 +10,34 @@ const Navbar = () => {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
 
-    const [color, setColor] = useState(false);
-    const changeColor = () => {
-        if(window.scrolly >= 100){
-            setColor(true);
-        }else{
-            setColor(false);
-        }
+    const [colorChange, setColorchange] = useState(false);
+    const changeNavbarColor = () =>{
+       if(window.scrollY >= 80){
+         setColorchange(true);
+       }
+       else{
+         setColorchange(false);
+       }
     };
-
-    window.addEventListener("scroll", changeColor);
+    window.addEventListener('scroll', changeNavbarColor);
 
   return (
-    <div className={color ? "header header-bg" : "header"}>
+    <div className={colorChange ? "header header-bg" : "header"}>
         <Link to="/">
             <h1>Gautam Bharte</h1>
         </Link>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li>
-                <Link to="/">Home</Link>
+                <Link to="/"><h3>Home</h3></Link>
             </li>
             <li>
-                <Link to="/project">Project</Link>
+                <Link to="/project"><h3>Project</h3></Link>
             </li>
             <li>
-                <Link to="/about">About</Link>
+                <Link to="/about"><h3>About</h3></Link>
             </li>
             <li>
-                <Link to="/contact">Contact</Link>
+                <Link to="/contact"><h3>Contact</h3></Link>
             </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>

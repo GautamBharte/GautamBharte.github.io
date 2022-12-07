@@ -11,11 +11,11 @@
 }
 
 body{
-  background: #000;
+  background: rgb(255, 255, 255);
 }
 
 h1, h4, p, a{
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -40,7 +40,13 @@ ul{
 }
 
 .btn:hover{
-  background: rgba(255,255,255,0.2);
+  background: rgba(0, 0, 0, 0.2);
   color: #fff;
+  transition: 0.5s;
+}
+
+.btn-light:hover{
+  background: rgba(245, 245, 245, 0.2);
+  color: rgb(0, 0, 0);
   transition: 0.3s;
 }

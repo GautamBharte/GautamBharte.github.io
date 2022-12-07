@@ -14,6 +14,9 @@ const HeroImg = () => {
         <div className="content">
             <p>hi, there I'm Engineer</p>
             <h1>Data Science Enthusiast</h1>
+            <div className="git-Calender">
+            {/* <img src="http://ghchart.rshah.org/GautamBharte" alt="Gautam Bharte's Github chart" /> */}
+            </div>
             <div>
                 <Link to={resume} download={resume} className="btn">Resume</Link>
                 <Link to="/contact" className="btn btn-light">Contact</Link>

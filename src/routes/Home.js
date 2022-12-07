@@ -10,6 +10,7 @@ const Home = () => {
     <HeroImg />
     <Work />
     <Footer />
+    
   </div>
 }
 

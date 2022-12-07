@@ -2,15 +2,27 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0.85);
     padding: 1rem;
     position: fixed;
     width: 100%;
-    height: 90px;
+    height: 70px;
     z-index: 10;
 }
 
+.header h1{
+    color: rgb(0, 0, 0);
+}
+
+.header h3, p, a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+
+
 .header-bg{
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(255, 255, 255, 0.85);
     transition: 0.5s;
 }
 
@@ -37,7 +49,7 @@
         align-items: center;
         width: 100%;
         height: 100vh;
-        background: rgba(0, 0, 0, 0.9);
+        background: rgba(255, 255, 255, 0.9);
         position: absolute;
         top: 0;
         left: -100%;
